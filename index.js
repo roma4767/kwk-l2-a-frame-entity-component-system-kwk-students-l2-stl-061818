@@ -43,7 +43,7 @@ function createSpheres() {
   const newSphere1 = document.createElement('a-spheres')
   const newSphere2 = document.createElement('a-spheres')
 
-  addEntityToScene(entity);
+  addEntityToScene(entity)
   
   newSphere1.setAttribute("radius", Math.random() * 3))
   newSphere1.setAttribute("color", color)
