@@ -40,5 +40,24 @@ function createSphere() {
 }
 
 function createSpheres() {
-  // TODO: implement me!
+  const newSphere1 = document.createElement('a-spheres')
+  const newSphere2 = document.createElement('a-spheres')
+
+  addEntityToScene(entity)
+  
+  newSphere1.setAttribute("radius", Math.ceil(Math.random() * 3))
+  newSphere1.setAttribute("color", color)
+  newSphere1.setAttribute("position", coords)
+  
+  newSphere2.setAttribute("radius", Math.ceil(Math.random() * 3))
+  newSphere2.setAttribute("color", color)
+  newSphere2.setAttribute("position", coords)
+  
+  return newSphere1
+  return newSphere2
+}
+
+function addBobAnimationToElement() {
+  animation = document.createElement('a-animation')
+  
 }
