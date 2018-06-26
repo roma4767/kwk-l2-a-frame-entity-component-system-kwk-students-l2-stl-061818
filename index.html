@@ -16,7 +16,11 @@
       <!-- our initial sphere in the center of the scene -->
       <!-- your sphere here! -->
       <a-sphere src='./assets/wall-texture.jpg' position="0 0 0" radius='2'>
-        <a-animation></a-animation>
+        <a-animation attribute="rotation"
+               dur="10000"
+               fill="forwards"
+               to="0 360 0"
+               repeat="indefinite"></a-animation>
       </a-sphere>
       <a-spheres></a-spheres>
 
