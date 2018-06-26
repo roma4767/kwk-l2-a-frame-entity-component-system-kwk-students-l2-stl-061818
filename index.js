@@ -45,9 +45,9 @@ function createSpheres() {
 
   addEntityToScene(entity)
   
-  newSphere1.setAttribute("radius", Math.ceil(Math.random() * 3))
+  newSphere1.setAttribute("radius", Math.random() * 3))
   newSphere1.setAttribute("color", color)
-  newSphere1.setAttribute("position", coords)
+  newSphere1.setAttribute("position", startPositions[Math.random()])
   
   newSphere2.setAttribute("radius", Math.ceil(Math.random() * 3))
   newSphere2.setAttribute("color", color)
