@@ -51,7 +51,7 @@ function createSpheres() {
   
   newSphere2.setAttribute("radius", Math.ceil(Math.random() * 3))
   newSphere2.setAttribute("color", color[Math.random()])
-  newSphere2.setAttribute("position", Math.random())
+  newSphere2.setAttribute("position", startPositions[Math.random()])
   
   return newSphere1
   return newSphere2
