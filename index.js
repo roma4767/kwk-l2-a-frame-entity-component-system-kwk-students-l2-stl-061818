@@ -60,4 +60,5 @@ function createSpheres() {
 function addBobAnimationToElement() {
   animation = document.createElement('a-animation')
   
+  animation.setAttribute('attribute', )
 }
