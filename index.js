@@ -61,5 +61,10 @@ function addBobAnimationToElement() {
   animation = document.createElement('a-animation')
   
   animation.setAttribute('attribute', 'rotation')
-  
+  animation.setAttribute('dur', '1000')
+  animation.setAttribute('fill', 'none')
+  animation.setAttribute('from', '0 0 0')
+  animation.setAttribute('to', '0 360 0')
+  animation.setAttribute('easing', 'linear')
+  animation.setAttribute('repeat', 'indefinite')
 }
